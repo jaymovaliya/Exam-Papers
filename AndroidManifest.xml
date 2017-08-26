@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.exampapers" >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/download"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/download"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" ></activity>
+        <activity android:name=".SemesterActivity" ></activity>
+        <activity android:name=".SemesterCivil" ></activity>
+        <activity android:name=".SemesterComputer" ></activity>
+        <activity android:name=".SemesterElectrical" ></activity>
+        <activity android:name=".SemesterElectronics" ></activity>
+        <activity android:name=".SemesterEC" ></activity>
+        <activity android:name=".SemesterIT" ></activity>
+        <activity android:name=".SemesterMechanical" ></activity>
+        <activity android:name=".SemesterProduction" ></activity>
+        <activity android:name=".SemesterOneCivil" ></activity>
+        <activity android:name=".SemesterTwoCivil" ></activity>
+        <activity android:name=".SemesterThreeCivil" ></activity>
+        <activity android:name=".SemesterFourCivil" ></activity>
+        <activity android:name=".SemesterOneComputer" ></activity>
+        <activity android:name=".SemesterTwoComputer" ></activity>
+        <activity android:name=".SemesterThreeComputer" ></activity>
+        <activity android:name=".SemesterFourComputer" ></activity>
+        <activity android:name=".SemesterOneElectrical" ></activity>
+        <activity android:name=".SemesterTwoElectrical" ></activity>
+        <activity android:name=".SemesterThreeElectrical" ></activity>
+        <activity android:name=".SemesterFourElectrical" ></activity>
+        <activity android:name=".SemesterOneElectronics" ></activity>
+        <activity android:name=".SemesterTwoElectronics" ></activity>
+        <activity android:name=".SemesterThreeElectronics" ></activity>
+        <activity android:name=".SemesterFourElectronics" ></activity>
+        <activity android:name=".SemesterOneEC" ></activity>
+        <activity android:name=".SemesterTwoEC" ></activity>
+        <activity android:name=".SemesterThreeEC" ></activity>
+        <activity android:name=".SemesterFourEC" ></activity>
+        <activity android:name=".SemesterOneIT" ></activity>
+        <activity android:name=".SemesterTwoIT" ></activity>
+        <activity android:name=".SemesterThreeIT" ></activity>
+        <activity android:name=".SemesterFourIT" ></activity>
+        <activity android:name=".SemesterOneMechanical" ></activity>
+        <activity android:name=".SemesterTwoMechanical" ></activity>
+        <activity android:name=".SemesterThreeMechanical" ></activity>
+        <activity android:name=".SemesterFourMechanical" ></activity>
+        <activity android:name=".SemesterOneProduction" ></activity>
+        <activity android:name=".SemesterTwoProduction" ></activity>
+        <activity android:name=".SemesterThreeProduction" ></activity>
+        <activity android:name=".SemesterFourProduction" ></activity>
+
+    </application>
+
+</manifest>
